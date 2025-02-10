@@ -1,0 +1,17 @@
+.container {
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    background-color: red;
+    flex: auto;
+    border: solid 1px black;
+}
+
+.row {
+    flex: auto;
+    display: flex;
+}
